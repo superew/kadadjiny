@@ -1,0 +1,12 @@
+/**
+ * Theme Name: Theme for Kadadjiny 
+ * Template:   twentytwentyfive
+ * Author: Andrew Nguyen
+ */
+ @import url("../twentytwentyfive/style.css");
+ .sticky-header {
+    position: sticky;
+    top: 0;
+    background: whitesmoke;
+    padding: 10px 15px;
+}

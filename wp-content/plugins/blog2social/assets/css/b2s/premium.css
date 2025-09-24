@@ -1,0 +1,76 @@
+body .thumbnail{
+    border: none;
+}
+
+.b2s-premium-btn-group{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.chosen-single {
+    box-shadow: none !important;
+    background: none !important;
+    border-radius: 3px !important;
+    height: 30px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.chosen-single div {
+    padding-top: 2px !important;
+}
+
+#b2s_license_user_select_chosen {
+    width: 100% !important;
+}
+
+@media(min-width:991px){
+    #b2s-license-user-area {
+        padding-left: 0px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+}
+@media(max-width:991px){
+    #b2s-license-user-area{
+        padding-bottom: 5px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+.b2s-btn-premium-filled {
+    border-style:solid !important;
+    border-width:0px !important;
+    border-color:#79b331 !important;
+    color: #ffffff !important;
+    background-color:#79b331 !important;
+    border-radius:25px !important;
+}
+
+.modal-header{
+    border-bottom: none !important;
+}
+
+.input-group-btn{
+    padding-top:19px;
+}
+
+.b2s-key-area-btn-submit{
+    border-style:solid !important;
+    border-width:1px !important;
+    border-color:#79b331 !important;
+    color: #79b331 !important;
+    background-color:white !important;
+    
+}
+
+.b2s-text-middle{
+    vertical-align: middle;
+    font: 13px/1 Arial,sans-serif;
+}
+
+.b2s-btn-lg{
+    padding: 8px 70px !important;
+}
