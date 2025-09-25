@@ -18,5 +18,5 @@
               username: ${{ secrets.FTP_USERNAME }}
               password: ${{ secrets.FTP_PASSWORD }}
               local-dir: ./ # Or the directory containing your website files
-              server-dir: htdocs/ # Or your target directory on InfinityFree
+              server-dir: htdocs/kadadjiny # Or your target directory on InfinityFree
               # Add other options as needed, e.g., exclude, dry-run
