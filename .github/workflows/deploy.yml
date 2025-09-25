@@ -1,0 +1,22 @@
+    name: Deploy to InfinityFree
+
+    on:
+      push:
+        branches:
+          - main # Or your main branch name
+
+    jobs:
+      deploy:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v4
+
+          - name: FTP Deploy
+            uses: SamKirkland/FTP-Deploy-Action@v4.3.0 # Or another suitable FTP deployment action
+            with:
+              server: ${{ secrets.FTP_HOST }}
+              username: ${{ secrets.FTP_USERNAME }}
+              password: ${{ secrets.FTP_PASSWORD }}
+              local-dir: ./ # Or the directory containing your website files
+              server-dir: htdocs/ # Or your target directory on InfinityFree
+              # Add other options as needed, e.g., exclude, dry-run
